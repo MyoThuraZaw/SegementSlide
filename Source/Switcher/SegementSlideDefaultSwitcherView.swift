@@ -171,7 +171,7 @@ extension SegementSlideDefaultSwitcherView {
         }
         scrollView.addSubview(indicatorView)
         indicatorView.layer.masksToBounds = true
-        indicatorView.layer.cornerRadius = innerConfig.indicatorHeight/2
+        indicatorView.layer.cornerRadius = innerConfig.indicatorCornerRadius
         indicatorView.backgroundColor = innerConfig.indicatorColor
     }
     
