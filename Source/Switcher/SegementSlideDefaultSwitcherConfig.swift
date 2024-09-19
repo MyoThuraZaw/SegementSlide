@@ -23,6 +23,7 @@ public struct SegementSlideDefaultSwitcherConfig {
     public var indicatorHeight: CGFloat
     public var indicatorColor: UIColor
     public var indicatorCornerRadius: CGFloat
+    public var backgroundColor: UIColor
     public var badgeHeightForPointType: CGFloat
     public var badgeHeightForCountType: CGFloat
     public var badgeHeightForCustomType: CGFloat
@@ -39,6 +40,7 @@ public struct SegementSlideDefaultSwitcherConfig {
                 indicatorHeight: CGFloat = 2,
                 indicatorColor: UIColor = UIColor.darkGray,
                 indicatorCornerRadius: CGFloat = 0,
+                backgroundColor: UIColor = .white,
                 badgeHeightForPointType: CGFloat = 9,
                 badgeHeightForCountType: CGFloat = 15,
                 badgeHeightForCustomType: CGFloat = 14,
@@ -54,6 +56,7 @@ public struct SegementSlideDefaultSwitcherConfig {
         self.indicatorHeight = indicatorHeight
         self.indicatorColor = indicatorColor
         self.indicatorCornerRadius = indicatorCornerRadius
+        self.backgroundColor = backgroundColor
         self.badgeHeightForPointType = badgeHeightForPointType
         self.badgeHeightForCountType = badgeHeightForCountType
         self.badgeHeightForCustomType = badgeHeightForCustomType

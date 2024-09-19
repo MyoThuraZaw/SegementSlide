@@ -173,6 +173,8 @@ extension SegementSlideDefaultSwitcherView {
         indicatorView.layer.masksToBounds = true
         indicatorView.layer.cornerRadius = innerConfig.indicatorCornerRadius
         indicatorView.backgroundColor = innerConfig.indicatorColor
+        
+        backgroundColor = innerConfig.backgroundColor
     }
     
     private func reloadContents() {
